@@ -1,0 +1,40 @@
+{
+  "name": "playwright-api-petstore",
+  "version": "1.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright",
+    "lint": "eslint 'src/**/*{ts,tsx}' src",
+    "lint:fix": "eslint 'src/**/*{ts,tsx}' --fix src",
+    "format": "prettier --write .",
+    "tsc": "tsc --noEmit"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": "Playwright API Petstore Tests",
+  "dependencies": {
+    "axe-core": "^4.10.2",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "playwright": "^1.50.1",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.0",
+    "@typescript-eslint/eslint-plugin": "^8.22.0",
+    "@typescript-eslint/parser": "^8.22.0",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-playwright": "^2.2.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "typescript": "^5.7.3"
+  }
+}
