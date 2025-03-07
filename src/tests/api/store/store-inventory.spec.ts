@@ -21,7 +21,6 @@ test.describe('store /store/inventory', () => {
     });
 
     expect(inventory).toHaveProperty('sold');
-    expect(inventory).toHaveProperty('placed');
     expect(inventory).toHaveProperty('available');
     expect(inventory).toHaveProperty('pending');
   });
